@@ -28,3 +28,7 @@ def swap_elements_from_to(array, from, to)
   else "Not enough elements"
   end
 end
+
+def reverse_array(array)
+  array.reverse
+end
