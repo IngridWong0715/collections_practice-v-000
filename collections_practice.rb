@@ -36,6 +36,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  value = array.collect {|string| string[2]="$"}
-  binding.pry
+  value = array.collect do |string|
+    string[2]="$"
+    puts string
+  end
 end
