@@ -10,3 +10,12 @@ end
 def sort_array_char_count(array)
   array.sort {|left, right| left.length <=> right.length}
 end
+
+def swap_elements(array)
+  if array.length > 3
+    temp_second = array[1]
+    array[1] = array[2]
+    array[2] = temp_second
+  else "Not enough elements"
+  end
+end
