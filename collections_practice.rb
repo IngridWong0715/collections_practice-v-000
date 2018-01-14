@@ -40,5 +40,5 @@ def kesha_maker(array)
     string[2]="$"
     puts string
   end
-  value
+  puts value
 end
