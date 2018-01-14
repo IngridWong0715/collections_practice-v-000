@@ -50,3 +50,4 @@ end
 
 def add_s(array)
   array.map_with_index{|word, i| word.concat("s") if i != 1}
+end
