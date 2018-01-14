@@ -22,7 +22,7 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, from, to)
-  if array.length > # TODO:
+  if array.length >= to
     temp_from = array[from]
     array[from] = array[to]
     array[to] = temp_from
