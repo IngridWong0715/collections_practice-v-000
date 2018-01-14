@@ -19,3 +19,12 @@ def swap_elements(array)
   else "Not enough elements"
   end
 end
+
+def swap_elements_from_to(array, from, to)
+  if array.length > # TODO:
+    temp_from = array[from]
+    array[from] = array[to]
+    array[to] = temp_from
+  else "Not enough elements"
+  end
+end
