@@ -26,6 +26,7 @@ def swap_elements_from_to(array, from, to)
     temp_from = array[from]
     array[from] = array[to]
     array[to] = temp_from
+    return array
   else "Not enough elements"
   end
 end
