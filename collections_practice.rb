@@ -36,9 +36,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  value = array.collect do |string|
-    string[2]="$"
-    puts string
-  end
-  puts value
+  value = array.collect { |string[2]="$"}
 end
