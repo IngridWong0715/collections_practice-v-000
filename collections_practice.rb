@@ -47,3 +47,6 @@ end
 def sum_array(array)
   array.reduce {|sum, n| sum + n}
 end
+
+def add_s(array)
+  array.map_with_index{|word, i| word.concat("s") if i != 1}
