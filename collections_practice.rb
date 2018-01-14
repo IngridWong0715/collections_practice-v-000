@@ -46,3 +46,4 @@ end
 
 def sum_array(array)
   array.reduce {|sum, n| sum + n}
+end
