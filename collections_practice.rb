@@ -16,6 +16,7 @@ def swap_elements(array)
     temp_second = array[1]
     array[1] = array[2]
     array[2] = temp_second
+    return array
   else "Not enough elements"
   end
 end
